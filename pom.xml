@@ -8,7 +8,10 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
+<!-- 
 		<java-version>1.6</java-version>
+-->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<org.springframework-version>4.3.6.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
@@ -153,11 +156,13 @@
                     <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
             </plugin>
+<!--          
             <plugin>
 			    <groupId>org.sonarsource.scanner.maven</groupId>
     			<artifactId>sonar-maven-plugin</artifactId>
     			<version>3.7.0.1746</version>
-            </plugin> 
+            </plugin>
+-->             
         </plugins>
     </build>
 </project>
